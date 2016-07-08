@@ -60,10 +60,8 @@
 		8E6B7CA91D306D4A0050A149 /* PushNotifications */ = {
 			isa = PBXGroup;
 			children = (
-				8E6B7CAD1D306D4A0050A149 /* AppDelegate.h */,
-				8E6B7CAE1D306D4A0050A149 /* AppDelegate.m */,
-				8E6B7CB01D306D4A0050A149 /* ViewController.h */,
-				8E6B7CB11D306D4A0050A149 /* ViewController.m */,
+				8E6B7CC51D306D9B0050A149 /* Main */,
+				8E6B7CC41D306D770050A149 /* Controllers */,
 				8E6B7CB31D306D4A0050A149 /* Main.storyboard */,
 				8E6B7CB91D306D4A0050A149 /* Assets.xcassets */,
 				8E6B7CBB1D306D4A0050A149 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				8E6B7CAB1D306D4A0050A149 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E6B7CC41D306D770050A149 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E6B7CB01D306D4A0050A149 /* ViewController.h */,
+				8E6B7CB11D306D4A0050A149 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E6B7CC51D306D9B0050A149 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E6B7CAD1D306D4A0050A149 /* AppDelegate.h */,
+				8E6B7CAE1D306D4A0050A149 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
